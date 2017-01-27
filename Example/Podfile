@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TimeAgo_Tests' do
+  pod 'TimeAgo', :path => '../'
+  
+  
+end
