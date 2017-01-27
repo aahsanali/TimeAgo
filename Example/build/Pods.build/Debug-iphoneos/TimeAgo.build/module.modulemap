@@ -1,0 +1,10 @@
+framework module TimeAgo {
+  umbrella header "TimeAgo-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module TimeAgo.Swift {
+    header "TimeAgo-Swift.h"
+}

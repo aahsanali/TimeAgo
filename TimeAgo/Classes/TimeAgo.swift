@@ -37,7 +37,7 @@ extension Date {
     }
     
 
-    func dateTimeAgo() -> String {
+    public func dateTimeAgo() -> String {
         
         let now = Date()
         let calendar = Calendar.current

@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of TimeAgo.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TimeAgo",
+  "homepage": "https://github.com/aahsanali/TimeAgo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Naveed Ahsan": "naveed.ahsan@coeus-solutions.de"
+    "Naveed Ahsan": "aahsanali@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TimeAgo.git",
+    "git": "https://github.com/aahsanali/TimeAgo.git",
     "tag": "0.1.0"
   },
   "platforms": {
