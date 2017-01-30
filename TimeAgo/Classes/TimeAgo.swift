@@ -11,8 +11,11 @@ import UIKit
 extension String {
     var localized: String {
 
-        let path = Bundle.main.path(forResource: "TimeAgo", ofType: "bundle")
-        let bundle = Bundle(path: path!)
+        
+        let bundle = Bundle(path: Bundle(for: type(of:self) as! AnyClass).path(forResource: "TimeAgo", ofType: "bundle")!)
+        
+//        let path = Bundle.main.path(forResource: "TimeAgo", ofType: "bundle")
+//        let bundle = Bundle(path: path!)
         
         let res =  NSLocalizedString(self, tableName: "NSDateTimeAgo", bundle: bundle!, value: "", comment: "")
         return res
