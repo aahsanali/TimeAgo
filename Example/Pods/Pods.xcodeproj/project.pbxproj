@@ -8,15 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		35013459D2CDA690793DFA447F6D1A76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		5139275F1FB2D5F009DD619DFDC21FED /* TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A210A626D0464D9FC647EB1CD1A07823 /* TimeAgo.swift */; };
+		5139275F1FB2D5F009DD619DFDC21FED /* TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330BDDAE301C843758C916A8B747CE8D /* TimeAgo.swift */; };
 		59242C4B0DD8478E67FB430E4CDCED08 /* Pods-TimeAgo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7C4F364F33036C9ABB5B67A5F23A9 /* Pods-TimeAgo_Tests-dummy.m */; };
-		98DA0A7791306BCD71E6475225AD66A1 /* TimeAgo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 449B5EB63A89A7F667AF66DC51A6D942 /* TimeAgo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C134AF93D6FEF61806759F33DF08A2B /* TimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE1D6B89AD5FAAFB378DEF1DC7FF492D /* TimeAgo.bundle */; };
+		98DA0A7791306BCD71E6475225AD66A1 /* TimeAgo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6299B67411156BAA13CCC18A776E4109 /* TimeAgo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE4392098F6A0F2CB813D30D5FD5789F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D70E18E746E5B3AB3082B4D856CB2746 /* TimeAgo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 367227E95A7807A9294A3C33E9678C6D /* TimeAgo-dummy.m */; };
+		D46B0150A49DFA4D8686FB8282814DB7 /* TimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E401D628BB0B38A8397DDE4DF1840FD7 /* TimeAgo.bundle */; };
+		D70E18E746E5B3AB3082B4D856CB2746 /* TimeAgo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB381977F9F0AF75F61D8DD2D1688D2F /* TimeAgo-dummy.m */; };
 		F0336B424FE86F0C121F547C772552EC /* Pods-TimeAgo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD7372824E4D27D25EB513BE6FEEC66 /* Pods-TimeAgo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		739DE8D2B1583F2DABDE4BB93EBDDA23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DC3F5033D26A96E59184C4DF2AB6B31;
+			remoteInfo = "TimeAgo-TimeAgo";
+		};
 		EF6412D4D00156D30C1F842E73B1A1F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -27,27 +36,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03AB1CAC502A3125D8595ED4CB48F069 /* TimeAgo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeAgo.xcconfig; sourceTree = "<group>"; };
-		367227E95A7807A9294A3C33E9678C6D /* TimeAgo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeAgo-dummy.m"; sourceTree = "<group>"; };
+		1C0A820FD98E159A3EEEEE0DA402086E /* TimeAgo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeAgo.xcconfig; sourceTree = "<group>"; };
+		330BDDAE301C843758C916A8B747CE8D /* TimeAgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeAgo.swift; sourceTree = "<group>"; };
 		3C8C3F6A5A02E6A9497CF9876745B2D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		449B5EB63A89A7F667AF66DC51A6D942 /* TimeAgo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeAgo-umbrella.h"; sourceTree = "<group>"; };
 		4568CEAA3A2864D6B3123704EBD09BD6 /* Pods-TimeAgo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeAgo_Tests-resources.sh"; sourceTree = "<group>"; };
-		53AF53C95B207BDA5327DE79AFDB4807 /* Pods_TimeAgo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeAgo_Tests.framework; path = "Pods-TimeAgo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58CC803E99092C89896A50DCE8CEFBF5 /* TimeAgo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeAgo-prefix.pch"; sourceTree = "<group>"; };
+		6299B67411156BAA13CCC18A776E4109 /* TimeAgo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeAgo-umbrella.h"; sourceTree = "<group>"; };
+		6393B2E981B02C06076959A1F34A247B /* TimeAgo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeAgo-prefix.pch"; sourceTree = "<group>"; };
 		7AD7372824E4D27D25EB513BE6FEEC66 /* Pods-TimeAgo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeAgo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8CEA823B767F75F1CC91E7693AED9F53 /* TimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimeAgo.framework; path = TimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF8DD4BFF49F4B62035F434DB3804CA /* ResourceBundle-TimeAgo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TimeAgo-Info.plist"; sourceTree = "<group>"; };
+		878A38AA19FE10D85AD19BED6708E023 /* Pods_TimeAgo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeAgo_Tests.framework; path = "Pods-TimeAgo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8733C74D95B030A45DE8C0C5402868 /* TimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimeAgo.framework; path = TimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A097D750A161C8B82B27F827A4FC3E /* Pods-TimeAgo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TimeAgo_Tests.modulemap"; sourceTree = "<group>"; };
 		92382C3B6545ABF0CDFAD532AFC1F37E /* Pods-TimeAgo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeAgo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A210A626D0464D9FC647EB1CD1A07823 /* TimeAgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeAgo.swift; sourceTree = "<group>"; };
+		AB381977F9F0AF75F61D8DD2D1688D2F /* TimeAgo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeAgo-dummy.m"; sourceTree = "<group>"; };
+		AE1D6B89AD5FAAFB378DEF1DC7FF492D /* TimeAgo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TimeAgo.bundle; path = TimeAgo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF422F44B9ACCB3297E58D0FC62FF25F /* Pods-TimeAgo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeAgo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B751925276413B679C98F02974048ABC /* Pods-TimeAgo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeAgo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C1D7C4F364F33036C9ABB5B67A5F23A9 /* Pods-TimeAgo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeAgo_Tests-dummy.m"; sourceTree = "<group>"; };
+		C3DA9C1EE11A0D0FAAC72332D7C842B0 /* TimeAgo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TimeAgo.modulemap; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D9873E5B70DC01142A3D748E5FDDD335 /* Pods-TimeAgo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeAgo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAC79B1F97BFE6C4F00C0B79DA43C09F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC13C219F46E7D0C8FCBC39F38E16043 /* Pods-TimeAgo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeAgo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EF2271709525C6F19B089DF7A5F5ACDE /* TimeAgo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TimeAgo.modulemap; sourceTree = "<group>"; };
-		FFF1739F555313B43226EAC2305A9107 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E401D628BB0B38A8397DDE4DF1840FD7 /* TimeAgo.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TimeAgo.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,43 +79,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1AA0C1DF77B232B833D8A3C0D7E44E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		364B0332480CBFF627195AED3B81E042 /* Products */ = {
+		04B495D1C0EB838D575178D6DBECC7A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53AF53C95B207BDA5327DE79AFDB4807 /* Pods_TimeAgo_Tests.framework */,
-				8CEA823B767F75F1CC91E7693AED9F53 /* TimeAgo.framework */,
+				878A38AA19FE10D85AD19BED6708E023 /* Pods_TimeAgo_Tests.framework */,
+				AE1D6B89AD5FAAFB378DEF1DC7FF492D /* TimeAgo.bundle */,
+				8A8733C74D95B030A45DE8C0C5402868 /* TimeAgo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41E6CF02FD540FA04D65A74911C6A3C1 /* Development Pods */ = {
+		34C1D6B79369D6A6D340CCF1BB416521 /* TimeAgo */ = {
 			isa = PBXGroup;
 			children = (
-				4D060184DC7F985BCE3D1560FEDD33CD /* TimeAgo */,
+				880EB5F7E6883FE0FEBD96A3499058B2 /* Assets */,
 			);
-			name = "Development Pods";
+			name = TimeAgo;
+			path = TimeAgo;
 			sourceTree = "<group>";
 		};
-		4D060184DC7F985BCE3D1560FEDD33CD /* TimeAgo */ = {
+		4A9D622F98EF43D6FA6604DD4A5656D9 /* TimeAgo */ = {
 			isa = PBXGroup;
 			children = (
-				CE838B4483E0EDD3669DFCFF4182F34E /* Support Files */,
-				C78712D7C2E3364FCB87D083626875B1 /* TimeAgo */,
+				E220F5E842949DE48D0C1F759E1EC656 /* Classes */,
+			);
+			name = TimeAgo;
+			path = TimeAgo;
+			sourceTree = "<group>";
+		};
+		62CD84A8D0E62BF21B7D30BF843562A0 /* TimeAgo */ = {
+			isa = PBXGroup;
+			children = (
+				975C3F3373D181338FC516EAF0DCF7E0 /* Resources */,
+				E815DA57AD29B765A70DE6BE4DC02B12 /* Support Files */,
+				4A9D622F98EF43D6FA6604DD4A5656D9 /* TimeAgo */,
 			);
 			name = TimeAgo;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		6C1024FE2E6D98713D641E4A2899716A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A210A626D0464D9FC647EB1CD1A07823 /* TimeAgo.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -118,11 +140,20 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				41E6CF02FD540FA04D65A74911C6A3C1 /* Development Pods */,
+				EB5CC5CDB2CA5C979A075834C05D7EB9 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				364B0332480CBFF627195AED3B81E042 /* Products */,
+				04B495D1C0EB838D575178D6DBECC7A2 /* Products */,
 				EB859550E7ADD56D69CFEBCBDEF2A6A8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		880EB5F7E6883FE0FEBD96A3499058B2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E401D628BB0B38A8397DDE4DF1840FD7 /* TimeAgo.bundle */,
+			);
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		94836603117D7C22BD11D13A11D12EC6 /* Pods-TimeAgo_Tests */ = {
@@ -143,6 +174,14 @@
 			path = "Target Support Files/Pods-TimeAgo_Tests";
 			sourceTree = "<group>";
 		};
+		975C3F3373D181338FC516EAF0DCF7E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34C1D6B79369D6A6D340CCF1BB416521 /* TimeAgo */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,27 +190,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C78712D7C2E3364FCB87D083626875B1 /* TimeAgo */ = {
+		E220F5E842949DE48D0C1F759E1EC656 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6C1024FE2E6D98713D641E4A2899716A /* Classes */,
+				330BDDAE301C843758C916A8B747CE8D /* TimeAgo.swift */,
 			);
-			name = TimeAgo;
-			path = TimeAgo;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		CE838B4483E0EDD3669DFCFF4182F34E /* Support Files */ = {
+		E815DA57AD29B765A70DE6BE4DC02B12 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FFF1739F555313B43226EAC2305A9107 /* Info.plist */,
-				EF2271709525C6F19B089DF7A5F5ACDE /* TimeAgo.modulemap */,
-				03AB1CAC502A3125D8595ED4CB48F069 /* TimeAgo.xcconfig */,
-				367227E95A7807A9294A3C33E9678C6D /* TimeAgo-dummy.m */,
-				58CC803E99092C89896A50DCE8CEFBF5 /* TimeAgo-prefix.pch */,
-				449B5EB63A89A7F667AF66DC51A6D942 /* TimeAgo-umbrella.h */,
+				DAC79B1F97BFE6C4F00C0B79DA43C09F /* Info.plist */,
+				7EF8DD4BFF49F4B62035F434DB3804CA /* ResourceBundle-TimeAgo-Info.plist */,
+				C3DA9C1EE11A0D0FAAC72332D7C842B0 /* TimeAgo.modulemap */,
+				1C0A820FD98E159A3EEEEE0DA402086E /* TimeAgo.xcconfig */,
+				AB381977F9F0AF75F61D8DD2D1688D2F /* TimeAgo-dummy.m */,
+				6393B2E981B02C06076959A1F34A247B /* TimeAgo-prefix.pch */,
+				6299B67411156BAA13CCC18A776E4109 /* TimeAgo-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TimeAgo";
+			sourceTree = "<group>";
+		};
+		EB5CC5CDB2CA5C979A075834C05D7EB9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62CD84A8D0E62BF21B7D30BF843562A0 /* TimeAgo */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EB859550E7ADD56D69CFEBCBDEF2A6A8 /* Targets Support Files */ = {
@@ -219,8 +267,25 @@
 			);
 			name = "Pods-TimeAgo_Tests";
 			productName = "Pods-TimeAgo_Tests";
-			productReference = 53AF53C95B207BDA5327DE79AFDB4807 /* Pods_TimeAgo_Tests.framework */;
+			productReference = 878A38AA19FE10D85AD19BED6708E023 /* Pods_TimeAgo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		7DC3F5033D26A96E59184C4DF2AB6B31 /* TimeAgo-TimeAgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E27596EB067674E6E3A98575B6DDB53 /* Build configuration list for PBXNativeTarget "TimeAgo-TimeAgo" */;
+			buildPhases = (
+				F1971C751DE181BA83242F0A8EB08498 /* Sources */,
+				F1AA0C1DF77B232B833D8A3C0D7E44E3 /* Frameworks */,
+				C3DF457731C247E8E0EC5C953D596B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimeAgo-TimeAgo";
+			productName = "TimeAgo-TimeAgo";
+			productReference = AE1D6B89AD5FAAFB378DEF1DC7FF492D /* TimeAgo.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		C4DD54BFF23470C2C53512E4EC0F4F3E /* TimeAgo */ = {
 			isa = PBXNativeTarget;
@@ -228,15 +293,17 @@
 			buildPhases = (
 				11AC29285DA61EDFDF515BDA43AAF767 /* Sources */,
 				9306BFD2AB627296D0328C3D499C7242 /* Frameworks */,
+				2D5DCEFDF643B4F4C5E03B4AE4770449 /* Resources */,
 				32BBB2F7DE24ABC732E38055CDB116E1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				798D0D123B263ABB362498454D32DB0B /* PBXTargetDependency */,
 			);
 			name = TimeAgo;
 			productName = TimeAgo;
-			productReference = 8CEA823B767F75F1CC91E7693AED9F53 /* TimeAgo.framework */;
+			productReference = 8A8733C74D95B030A45DE8C0C5402868 /* TimeAgo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -256,15 +323,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 364B0332480CBFF627195AED3B81E042 /* Products */;
+			productRefGroup = 04B495D1C0EB838D575178D6DBECC7A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2D379196F055A183048BD693D69ACA93 /* Pods-TimeAgo_Tests */,
 				C4DD54BFF23470C2C53512E4EC0F4F3E /* TimeAgo */,
+				7DC3F5033D26A96E59184C4DF2AB6B31 /* TimeAgo-TimeAgo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5DCEFDF643B4F4C5E03B4AE4770449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C134AF93D6FEF61806759F33DF08A2B /* TimeAgo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DF457731C247E8E0EC5C953D596B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46B0150A49DFA4D8686FB8282814DB7 /* TimeAgo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11AC29285DA61EDFDF515BDA43AAF767 /* Sources */ = {
@@ -284,9 +371,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1971C751DE181BA83242F0A8EB08498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		798D0D123B263ABB362498454D32DB0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TimeAgo-TimeAgo";
+			target = 7DC3F5033D26A96E59184C4DF2AB6B31 /* TimeAgo-TimeAgo */;
+			targetProxy = 739DE8D2B1583F2DABDE4BB93EBDDA23 /* PBXContainerItemProxy */;
+		};
 		920189BB1FA884236D7BAD9E948A0565 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TimeAgo;
@@ -298,7 +398,7 @@
 /* Begin XCBuildConfiguration section */
 		226C620DE41F9EC13FB574630CCEB962 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03AB1CAC502A3125D8595ED4CB48F069 /* TimeAgo.xcconfig */;
+			baseConfigurationReference = 1C0A820FD98E159A3EEEEE0DA402086E /* TimeAgo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -361,6 +461,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39286895646A72D4634BAA5FF726F731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0A820FD98E159A3EEEEE0DA402086E /* TimeAgo.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimeAgo";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TimeAgo/ResourceBundle-TimeAgo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TimeAgo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -485,7 +602,7 @@
 		};
 		D4BE06B5D2C93D0EBFD244E0AF03FE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03AB1CAC502A3125D8595ED4CB48F069 /* TimeAgo.xcconfig */;
+			baseConfigurationReference = 1C0A820FD98E159A3EEEEE0DA402086E /* TimeAgo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -516,6 +633,23 @@
 			};
 			name = Debug;
 		};
+		DA5E33A4A6AB2BEFBE11EA0DCFD52647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0A820FD98E159A3EEEEE0DA402086E /* TimeAgo.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimeAgo";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TimeAgo/ResourceBundle-TimeAgo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TimeAgo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -524,6 +658,15 @@
 			buildConfigurations = (
 				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
 				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E27596EB067674E6E3A98575B6DDB53 /* Build configuration list for PBXNativeTarget "TimeAgo-TimeAgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39286895646A72D4634BAA5FF726F731 /* Debug */,
+				DA5E33A4A6AB2BEFBE11EA0DCFD52647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

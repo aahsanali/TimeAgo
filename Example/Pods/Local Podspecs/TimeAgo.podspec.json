@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TimeAgo/Classes/**/*"
+  "source_files": "TimeAgo/Classes/**/*",
+  "resource_bundles": {
+    "TimeAgo": [
+      "TimeAgo/Assets/*"
+    ]
+  }
 }
